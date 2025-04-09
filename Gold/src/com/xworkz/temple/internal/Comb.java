@@ -1,5 +1,4 @@
 package com.xworkz.temple.internal;
-
 public class Comb {
     public Comb() {
         System.out.println("no-args constructor of Comb");
