@@ -18,7 +18,7 @@ public class Count {
                 i++;
             }
         } catch (Exception e) {
-            // End of string
+
         }
         return wordCount;
     }
