@@ -728,7 +728,7 @@ public class Runner {
         homeLoan.loanType();
         homeLoan.show();
 
-        Account account = new Account();
+        Account account = new Account(1000,"Joint");
         account.show();
         Account account1 = new SavingsAccount();
         account1.show();

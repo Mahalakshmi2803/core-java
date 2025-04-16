@@ -1,6 +1,7 @@
 package overRide.internal;
 
 public class SavingsAccount extends Account {
+
     public SavingsAccount() {
         System.out.println("no arg constructor of SavingsAccount");
     }
