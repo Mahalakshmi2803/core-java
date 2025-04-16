@@ -1,6 +1,6 @@
 package overRide.runner1;
 
-import com.xworkz.temple.overRiding.internal.Tea;
+
 import overRide.internal.*;
 
 public class RunnerClass {
