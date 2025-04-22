@@ -8,5 +8,6 @@ public abstract class AbstractDress {
     }
     public void skirt(){
         System.out.println("skirt running in AbstractDress");
+
     }
 }

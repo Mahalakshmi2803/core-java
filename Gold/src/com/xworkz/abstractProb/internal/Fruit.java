@@ -11,5 +11,6 @@ public class Fruit extends AbstractMango{
 
         super.color();
         System.out.println("color running in Fruit");
+
     }
 }

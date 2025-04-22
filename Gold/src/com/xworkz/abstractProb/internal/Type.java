@@ -7,5 +7,6 @@ public abstract class Type extends AbstractPaint{
     @Override
     public void paintBrush(){
         System.out.println("paintBrush running in Type");
+
     }
 }

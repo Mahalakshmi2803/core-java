@@ -8,5 +8,6 @@ public class Pattern extends AbstractDress{
     @Override
     public void skirt(){
         System.out.println("skirt running in Pattern");
+
     }
 }

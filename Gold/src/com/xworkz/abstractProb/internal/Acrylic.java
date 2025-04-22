@@ -9,5 +9,6 @@ public class Acrylic extends Type {
     @Override
     public void palette() {
         System.out.println("palette running in Acrylic");
+
     }
 }

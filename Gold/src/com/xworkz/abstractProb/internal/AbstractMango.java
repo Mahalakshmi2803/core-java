@@ -10,6 +10,7 @@ public abstract class AbstractMango {
     }
     public void color(){
         System.out.println("color running in AbstractMango");
+
     }
 
 

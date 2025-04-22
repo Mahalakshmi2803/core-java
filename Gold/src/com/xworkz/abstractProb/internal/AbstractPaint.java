@@ -9,5 +9,6 @@ public abstract class AbstractPaint {
     }
     public void texture(){
         System.out.println("texture running in AbstractPaint");
+
     }
 }

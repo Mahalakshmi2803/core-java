@@ -15,5 +15,6 @@ public class Portable extends AbstractGadget{
     @Override
     public void smartWatch() {
         System.out.println("smartWatch running in Portable");
+
     }
 }

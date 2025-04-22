@@ -6,4 +6,6 @@ public abstract class AbstractGadget {
         System.out.println("laptop running in AbstractGadget");
     }
     public abstract void smartWatch();
+
+
 }
