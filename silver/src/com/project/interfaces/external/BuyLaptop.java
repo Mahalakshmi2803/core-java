@@ -3,28 +3,49 @@ package com.project.interfaces.external;
 import com.project.interfaces.internal.Laptop;
 
 public class BuyLaptop implements Laptop {
-    public static void main(String[] args) {
+    @Override
+    public void color() {
+        System.out.println("color running in BuyLaptop");
+    }
 
+    @Override
+    public void size() {
+        System.out.println("size running in BuyLaptop");
+    }
 
-        Laptop laptop = new BuyLaptop();
-        laptop.brand();
-        laptop.color();
-        laptop.cost();
-        laptop.graphics();
-        laptop.pixel();
-        laptop.processor();
-        laptop.storage();
-        laptop.store();
-        laptop.size();
-        BuyLaptop buyLaptop=new BuyLaptop();
-        buyLaptop.brand();
-        buyLaptop.color();
-        buyLaptop.cost();
-        buyLaptop.graphics();
-        buyLaptop.pixel();
-        buyLaptop.processor();
-        buyLaptop.storage();
-        buyLaptop.store();
-        buyLaptop.size();
+    @Override
+    public void cost() {
+        System.out.println("cost running in BuyLaptop");
+    }
+
+    @Override
+    public void brand() {
+        System.out.println("brand running in BuyLaptop");
+    }
+
+    @Override
+    public void graphics() {
+        System.out.println("graphics running in BuyLaptop");
+    }
+
+    @Override
+    public void pixel() {
+        System.out.println("pixel running in BuyLaptop");
+    }
+
+    @Override
+    public void processor() {
+        System.out.println("processor running in BuyLaptop");
+    }
+
+    @Override
+    public void storage() {
+        System.out.println("storage running in BuyLaptop");
+    }
+
+    @Override
+    public void store() {
+        System.out.println("store running in BuyLaptop");
     }
 }
+
