@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Appointment</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<h2>Book an Appointment</h2>
+<form action="quick" method="post">
+    <p>First Name: </p><input type="text" name="fname" placeholder="Enter your First Name" required><br>
+    <p>Last Name: </p><input type="text" name="lname" id="lname" placeholder="Enter your Last Name" ><br>
+    <p>E-mail: </p><input type="email" name="mail" id="mail" placeholder="Enter your Email" required><br>
+    <p>Age: </p><input type="number" name="age" id="age" placeholder="Enter your Age" required><br>
+    <p>Address: </p><input type="text" name="address" id="address" placeholder="Enter your Address" required><br>
+    <p>Sickness: </p><input type="text" name="sickness" id="sickness" placeholder="Type here" required> <br>
+    <p>Mobile Number: </p><input type="tel" name="mobile" id="mobile" placeholder="Enter your Mobile Number" required> <br>
+    <p>Select Gender </p>
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="gender" value="male">
+
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="gender" value="female">
+
+    <label for="other">Other</label>
+    <input type="radio" id="other" name="gender" value="other">
+    <br><br>
+    <button type="submit">Submit</button>
+</form>
+<a href="index.html">Back to home</a>
+
+<footer style="text-align:center; margin-top:20px; color:#777;">
+    &copy; 2025 HealthCare Portal. All rights reserved.
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
