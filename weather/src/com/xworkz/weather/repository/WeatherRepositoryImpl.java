@@ -16,7 +16,7 @@ public class WeatherRepositoryImpl implements WeatherRepository {
         if (weatherDto != null) {
             String url = "jdbc:mysql://localhost:3306/maha_2803";
             String username = "root";
-            String password = "Mahalakshmi@2803";
+            String password = "Mahalakshmi@280303";
 
             try {
                 Class.forName("com.mysql.cj.jdbc.Driver");
