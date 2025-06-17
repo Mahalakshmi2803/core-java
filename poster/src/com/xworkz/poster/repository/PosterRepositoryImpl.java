@@ -22,7 +22,6 @@ public class PosterRepositoryImpl implements PosterRepository{
             try {
                 Class.forName("com.mysql.cj.jdbc.Driver");
                 Connection connection = DriverManager.getConnection(url, username, password);
-
                 String sql = "INSERT INTO poster_details values (1," +
                         "'" + posterDto.getPosterName() + "', '" +
                         posterDto.getPosterColor() + "', '" +
