@@ -29,7 +29,6 @@ public class PosterRepositoryImpl implements PosterRepository{
                         posterDto.getPosterLengthInCm() + ", '" +
                         posterDto.getPosterReleaseDate() + "', '" +
                         posterDto.getIsAGoodPoster() + "')";
-
                 Statement statement = connection.createStatement();
                 statement.executeUpdate(sql);
             } catch (ClassNotFoundException | SQLException e) {
