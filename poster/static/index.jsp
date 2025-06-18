@@ -46,7 +46,7 @@
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
         }
 
-        h2 {
+        h2, h3 {
             font-weight: 600;
             color: #00695c;
             margin-bottom: 15px;
@@ -64,7 +64,7 @@
             font-weight: 600;
             color: white;
             border-radius: 40px;
-            margin-top: 20px;
+            margin: 10px;
             transition: background-color 0.3s ease;
         }
 
@@ -85,9 +85,10 @@
 <!-- Main Content -->
 <div class="main-content">
     <div class="welcome-box">
-
-        <h3> Give the review for  Poster </h3>
-        <a href="poster.jsp" class="btn btn-custom">Here you go</a>
+        <h3>Welcome to Poster Review Portal</h3>
+        <p>Please choose an action below:</p>
+        <a href="poster.jsp" class="btn btn-custom">Submit a Poster</a>
+        <a href="posters.jsp" class="btn btn-custom">Search/Review Posters</a>
     </div>
 </div>
 

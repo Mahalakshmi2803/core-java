@@ -1,6 +1,8 @@
 package com.xworkz.poster.dto;
 import lombok.*;
 
+import java.time.LocalDate;
+
 @Getter
 @Setter
 @ToString
@@ -16,5 +18,7 @@ public class PosterDto {
     private String IsAGoodPoster;
 
 
-
+    public PosterDto(String name, String color, String material, int length, LocalDate releaseDate, boolean goodOrBad) {
+    }
 }
+
